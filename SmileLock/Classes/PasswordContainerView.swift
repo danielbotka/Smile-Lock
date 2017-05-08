@@ -217,7 +217,7 @@ private extension PasswordContainerView {
             strokeColor = tintColor
             fillColor = highlightedColor
             //input view
-            circleBackgroundColor = whiteColor
+            circleBackgroundColor = UIColor(red: 0, green: 29/255, blue: 54/255, alpha: 1)
             highlightBackgroundColor = highlightedColor
             borderColor = tintColor
             textColor = tintColor
@@ -234,7 +234,7 @@ private extension PasswordContainerView {
             passwordInputView.textColor = textColor
             passwordInputView.highlightTextColor = highlightTextColor
             passwordInputView.highlightBackgroundColor = highlightBackgroundColor
-            passwordInputView.circleView.layer.borderColor = UIColor.white.cgColor
+            passwordInputView.circleView.layer.borderColor = UIColor(red: 0, green: 29/255, blue: 54/255, alpha: 1).cgColor
             //borderWidth as a flag, will recalculate in PasswordInputView.updateUI()
             passwordInputView.isVibrancyEffect = isVibrancyEffect
         }
